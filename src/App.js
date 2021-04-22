@@ -1,5 +1,7 @@
 // import ClockList from './components/ClockList';
-import Calculator from './components/Calculator';
+// import Calculator from './components/Calculator';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   const clocks = [1,2,3,4];
@@ -7,7 +9,9 @@ function App() {
     <div>
       {/* <ClockList quantity={clocks}/> */}
       {/* <Form /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      <ClickCounter />
+      <HoverCounter />
     </div>
   )
 }
